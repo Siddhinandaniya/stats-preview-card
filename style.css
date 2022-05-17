@@ -1,0 +1,132 @@
+body {
+  height: 100vh;
+  display: flex;
+  background-color: hsl(233, 47%, 7%);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+/* Whole card ------ */
+.card {
+  display: flex;
+  /* background-color: red; */
+  width: 62.5rem;
+  height: 25rem;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+/* section-2 ---------> Image-purple */
+.section-2 {
+  width: 31.25rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  position: relative;
+  background-image: url("Images/image-header-desktop.jpg");
+  height: 25rem;
+}
+.section-2::before {
+  content: "";
+  background-color: hsl(277, 64%, 61%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  mix-blend-mode: multiply;
+}
+
+/* section-1 ------> flex-box-1 */
+.section-1 {
+  background-color: hsl(244, 38%, 16%);
+  width: 31.25rem;
+}
+.flex-1-box {
+  text-align: left;
+  padding: 3rem 4rem 2rem;
+}
+.h1-text {
+  color: hsl(0, 0%, 100%);
+}
+.color-h1-text {
+  color: hsl(277, 64%, 61%);
+}
+.more-text {
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+  padding: 0 3rem 0 0;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+/* section-1 ------> flex-box-2 */
+.flex-2-box {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  margin: 0 8rem 2rem 4rem;
+  overflow: hidden;
+}
+.main-heading-sec-2 {
+  margin: 0.3rem 0;
+  color: hsl(0, 0%, 100%);
+}
+.p-text {
+  font-family: "Lexend Deca";
+  color: hsla(0, 0%, 100%, 0.6);
+  margin: 0;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+/* responsive site */
+@media (min-width: 375px) and (max-width: 1440px) {
+  body {
+    height: max-content;
+  }
+  .card {
+    margin: 4rem 2rem;
+    flex-wrap: wrap-reverse;
+    height: auto;
+
+    width: auto;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  .flex-1-box {
+    text-align: center;
+    padding: 1rem 3rem;
+  }
+  .more-text {
+    font-size: 1rem;
+    padding: 0 1rem;
+    color: hsla(0, 0%, 100%, 0.6);
+  }
+  .flex-2-box {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto 2rem;
+    overflow: hidden;
+    justify-content: center;
+    height: auto;
+    /* background-color: red; */
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.8rem 0;
+  }
+  .section-2 {
+    background-size: cover;
+    /* background-size: auto; */
+    height: 20rem;
+    position: relative;
+  }
+  .section-1 {
+    position: absolute;
+    background-size: inherit;
+    top: 392px;
+  }
+}
