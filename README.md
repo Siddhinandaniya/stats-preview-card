@@ -23,7 +23,7 @@ This is my first Frontend Mentor project. A simple card component which contain 
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/responsive-qrcode-using-html-and-css-X6eD52VOy](https://www.frontendmentor.io/solutions/responsive-qrcode-using-html-and-css-X6eD52VOy)
+- Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-btl7m_uouF](https://www.frontendmentor.io/solutions/stats-preview-card-component-btl7m_uouF)
 - Live Site URL: [https://siddhinandaniya.github.io/stats-preview-card/](https://siddhinandaniya.github.io/stats-preview-card/)
 
 ## My process
