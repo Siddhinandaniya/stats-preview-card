@@ -85,7 +85,7 @@ section {
   background-repeat: no-repeat;
   // opacity: 1;
   position: relative;
-  background-image: url("/images/image-header-desktop.jpg");
+  background-image: url("../images/image-header-desktop.jpg");
   // height: 100%;
 }
 .part-2::before {
@@ -116,7 +116,7 @@ section {
     height: 37rem;
   }
   .part-2 {
-    background-image: url("/images/image-header-mobile.jpg");
+    background-image: url("../images/image-header-mobile.jpg");
     height: 22rem;
     background-size: cover;
   }
