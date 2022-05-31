@@ -22,7 +22,7 @@ This is my fourth Frontend Mentor project. A simple card component, title and a 
 
 - Solution URL: [https://www.frontendmentor.io/solutions/stats-preview-card-component-btl7m_uouF](https://www.frontendmentor.io/solutions/stats-preview-card-component-btl7m_uouF)
 - Live Site URL: [https://siddhinandaniya.github.io/stats-preview-card/](https://siddhinandaniya.github.io/stats-preview-card/)
-- Live Site URL: https://siddhinandaniya.github.io/stats-preview-card/
+- Live Site URL: https://siddhie.github.io/stats-preview-card/
 
 
 ## Author
